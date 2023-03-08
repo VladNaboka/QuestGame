@@ -23,6 +23,7 @@ public class OpenSprite : MonoBehaviour
     public void Back(GameObject gameObj)
     {
         gameObj.SetActive(false);
+        Time.timeScale = 1f;
     }
     public void BackOnTime(GameObject gameObj)
     {
