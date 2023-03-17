@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\SpritesActive.cs" />
     <Compile Include="Assets\Scripts\ClickObj.cs" />
+    <Compile Include="Assets\Scripts\PressAnimation.cs" />
     <Compile Include="Assets\Scripts\WalkPlayerController.cs" />
     <Compile Include="Assets\Scripts\PressController.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
@@ -67,7 +68,7 @@
     <Compile Include="Assets\Scripts\BooksActiv.cs" />
     <Compile Include="Assets\Scripts\VisualizationObject.cs" />
     <Compile Include="Assets\Scripts\CameraTransition.cs" />
-    <Compile Include="Assets\Scripts\PressAnimation.cs" />
+    <Compile Include="Assets\Scripts\FalseActivDoor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
