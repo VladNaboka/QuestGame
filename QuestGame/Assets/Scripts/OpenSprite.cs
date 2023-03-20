@@ -5,19 +5,19 @@ using UnityEngine.UI;
 
 public class OpenSprite : MonoBehaviour
 {
-    [SerializeField] GameObject bookExelent;
+    [SerializeField] GameObject bookOpenWardrobe;
     [SerializeField] Sprite objReplacement;
     public bool bookReplace;
     private void OnMouseDown()
     {
         if (bookReplace)
         {
-            bookExelent.SetActive(true);
+            bookOpenWardrobe.SetActive(true);
             Time.timeScale = 0f;
         }
         else
         {
-            bookExelent.GetComponent<Image>().sprite = objReplacement;
+            bookOpenWardrobe.GetComponent<Image>().sprite = objReplacement;
         }
     }
     public void Back(GameObject gameObj)
